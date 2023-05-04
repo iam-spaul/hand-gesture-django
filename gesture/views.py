@@ -598,5 +598,5 @@ def mouse(request):
 
 
 
-def new_page_view(request):
+def members(request):
     return render(request,'index2.html')

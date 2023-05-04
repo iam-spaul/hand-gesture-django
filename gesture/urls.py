@@ -25,5 +25,5 @@ urlpatterns = [
     path('', views.button),
     path('output', views.output, name="script"),
     path('mouse', views.mouse, name="mouse"),
-    path('new_page_view/', views.new_page_view, name='new_page_view')
+    path('members/', views.members, name='members')
 ]
